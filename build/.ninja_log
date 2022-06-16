@@ -1,0 +1,13 @@
+# ninja log v5
+0	327	6770995659343143	CMakeFiles/Demo.dir/src/LinkedList.cpp.obj	359d07b9af4b7dd7
+2	416	6770997433121031	CMakeFiles/Demo.dir/src/DulNode.cpp.obj	bbced8e987de0d85
+417	539	6770997434311010	Demo.exe	e7b0d672461871b7
+2	425	6770998070265491	CMakeFiles/Demo.dir/src/DulNode.cpp.obj	bbced8e987de0d85
+425	537	6770998071367393	Demo.exe	e7b0d672461871b7
+8	373	6770999480377083	CMakeFiles/Demo.dir/src/LinkedList.cpp.obj	359d07b9af4b7dd7
+2	444	6770999481090308	CMakeFiles/Demo.dir/src/DulNode.cpp.obj	bbced8e987de0d85
+444	561	6770999482222586	Demo.exe	e7b0d672461871b7
+1	346	6770999663352654	CMakeFiles/Demo.dir/src/LinkedList.cpp.obj	359d07b9af4b7dd7
+347	462	6770999664472662	Demo.exe	e7b0d672461871b7
+2	364	6770999848023165	CMakeFiles/Demo.dir/src/LinkedList.cpp.obj	359d07b9af4b7dd7
+365	483	6770999849177705	Demo.exe	e7b0d672461871b7
