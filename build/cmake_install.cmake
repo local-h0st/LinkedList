@@ -1,4 +1,4 @@
-# Install script for directory: D:/VSCode/C++/MyProj/LinkedList/LinkedList
+# Install script for directory: D:/VSCode/C++/MyProj/LinkedList
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "D:/winlibs-x86_64-posix-seh-gcc-11.2.0-mingw-w64-9.0.0-r3/mingw64/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "D:/winlibs-x86_64-posix-seh-gcc-11.2.0-mingw-w64-9.0.0-r3/mingw64/bin/c++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "11.2.0")

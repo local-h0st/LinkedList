@@ -1,7 +1,12 @@
-cmake_minimum_required(VERSION 3.22)
-
+cmake_minimum_required(VERSION 3.0.0)
 project(DulLists)
 
-aux_source_directory(./src DIR_SRCS)
+include(CTest)
+enable_testing()
 
+aux_source_directory(./src DIR_SRCS)
 add_executable(Demo ${DIR_SRCS})
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)
