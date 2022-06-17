@@ -7,9 +7,10 @@
 class DulNode{
 public:
 	DulNode(std::string contentt);
-	void printContent();
+	void printContent(int mode);
 	std::shared_ptr<DulNode> getPrev();
 	std::shared_ptr<DulNode> getNext();
+	std::shared_ptr<DulNode> getCrnt();
 	void movPrev();
 	void movNext();
 	void addNodeAfterCurrent(std::string contentt);
