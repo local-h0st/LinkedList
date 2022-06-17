@@ -1,4 +1,4 @@
 # ninja log v5
-365	483	6770999849177705	Demo.exe	e7b0d672461871b7
-2	444	6770999481090308	CMakeFiles/Demo.dir/src/DulNode.cpp.obj	bbced8e987de0d85
 2	364	6770999848023165	CMakeFiles/Demo.dir/src/LinkedList.cpp.obj	359d07b9af4b7dd7
+2	444	6770999481090308	CMakeFiles/Demo.dir/src/DulNode.cpp.obj	bbced8e987de0d85
+365	483	6770999849177705	Demo.exe	e7b0d672461871b7
