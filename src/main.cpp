@@ -5,16 +5,22 @@ int main()
 {
     DulNode InitialNode("Pelikan Souveran m400");
     InitialNode.printContent(1);
-    InitialNode.addNodeAfterCurrent("Montblanc");
-    InitialNode.addNodeAfterCurrent("This is PureLov3");
-
-
-    InitialNode.movNext();
+    InitialNode.addNodeAfterCurrent("aaaaaaaaaaaa");
+    InitialNode.printContent(1);
+    InitialNode.addNodeAfterCurrent("bbbbbbbbbbbb");
     InitialNode.printContent(1);
 
-    InitialNode.movNext();
+    // InitialNode.addNodeAfterCurrent("This is PureLov3");
+
+    InitialNode.movPrev();
     InitialNode.printContent(1);
 
-    InitialNode.movNext();
+    InitialNode.movPrev();
+    InitialNode.printContent(1);
+
+    InitialNode.movPrev();
+    InitialNode.printContent(1);
+
+    InitialNode.movPrev();
     InitialNode.printContent(1);
 }

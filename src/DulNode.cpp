@@ -2,14 +2,14 @@
 
 DulNode::DulNode(std::string contentt) {
 	this->content = contentt;
-	this->pCrnt = std::shared_ptr<DulNode>(this);
+	this->pCrnt = this;
 	this->pNext = this->pCrnt;
 	this->pPrev = this->pCrnt;
 }
 
 void DulNode::addNodeAfterCurrent(std::string contentt) {
-	this->pNext->pPrev = std::make_shared<DulNode>(contentt);
-	this->pNext->pPrev->pPrev = std::shared_ptr<DulNode>(this);
+	this->pNext->pPrev = new DulNode(contentt);
+	this->pNext->pPrev->pPrev = this;
 	this->pNext->pPrev->pNext = this->pNext;
 	this->pNext = this->pNext->pPrev;
 }
@@ -23,15 +23,15 @@ void DulNode::printContent(int mode = 0){
 
 }
 
-std::shared_ptr<DulNode> DulNode::getPrev(){
+DulNode* DulNode::getPrev(){
 	return this->pPrev;
 }
 
-std::shared_ptr<DulNode> DulNode::getNext(){
+DulNode* DulNode::getNext(){
 	return this->pNext;
 }
 
-std::shared_ptr<DulNode> DulNode::getCrnt(){
+DulNode* DulNode::getCrnt(){
 	return this->pCrnt;
 }
 
